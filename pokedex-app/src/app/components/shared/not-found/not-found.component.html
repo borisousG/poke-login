@@ -1,0 +1,69 @@
+<p>not-found works!</p>
+
+<ul class="list-group">
+    <!-- <li>
+        <a routerLink="/auth">
+            Ir a Login no perezoso
+        </a>
+    </li> -->
+    <li>
+        <a routerLink="/authLazy/login">
+            Ir a Login
+        </a>
+    </li>
+    <li>
+        <a routerLink="/authLazy/enroll">
+            Ir a Registro
+        </a>
+    </li>
+    <li>
+        <a routerLink="/pokedex">
+            Pokedex
+        </a>
+    </li>
+    <li>
+        <a routerLink="/pokedex/add">
+            Agregar
+        </a>
+    </li>
+    <li>
+        <a routerLink="/pokedex/edit/1">
+            Editar
+        </a>
+    </li>
+    <li>
+        <a routerLink="/pokedex/find">
+            Buscar
+        </a>
+    </li>
+    <li>
+        <a routerLink="/pokedex/list">
+            Lista
+        </a>
+    </li>
+    <li>
+        <a routerLink="/pokedex/pokemon/1">
+            Pokemon
+        </a>
+    </li>
+</ul>
+
+<button (click)="login()">Login</button>
+<button (click)="logout()">Logout</button>
+<p>{{ showSession() }}</p>
+
+<br>
+
+<nav>
+    <ul>
+        <li>
+            <a routerLink="/pokedex/pokemon/1">Bulbasaur</a>
+        </li>
+        <li>
+            <a routerLink="/pokedex/pokemon/4">Charmander</a>
+        </li>
+        <li>
+            <a routerLink="/pokedex/pokemon/7">Squirtle</a>
+        </li>
+    </ul>
+</nav>
